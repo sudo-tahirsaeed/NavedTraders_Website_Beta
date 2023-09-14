@@ -1,0 +1,166 @@
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: .75
+}
+
+.footh33 {
+    margin-top: 0;
+    font-size: 30px;
+    color: yellowgreen;
+    text-align: center
+}
+
+.footh3 {
+    font-size: 15px
+}
+
+.insta {
+    height: 100px
+}
+
+.insta:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    animation: heartBeat;
+    animation-duration: 1s
+}
+
+.whatsapp:hover {
+    background: #25d366;
+    animation: heartBeat;
+    animation-duration: 1s
+}
+
+.fb:hover {
+    background: steelblue;
+    animation: heartBeat;
+    animation-duration: 1s
+}
+
+.footer-basic .social>a:hover {
+    opacity: 1
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0
+}
+
+.copyright {
+    background-color: #000;
+    font-family: "Arial";
+    font-weight: 700;
+    font-size: 18px
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 20px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100
+}
+.float:hover{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 20px;
+    background-color: #02742c;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100
+}
+.my-float {
+    margin-top: 16px
+}
+
+@keyframes color-change {
+    0% {
+        background-color: red
+    }
+    50% {
+        background-color: blue
+    }
+    100% {
+        background-color: red
+    }
+}
+
+.floating {
+    animation: tada 8s ease infinite;
+    position: fixed;
+    width: 100px;
+    height: 60px;
+    bottom: 130px;
+    right: 20px;
+    padding-top: 18px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    color: yellow
+}
+
+.floating:hover {
+    opacity: 0
+}
+
+.floatingx {
+    position: fixed;
+    width: 100px;
+    height: 60px;
+    bottom: 130px;
+    right: 20px;
+    padding-top: 18px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: cursive;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    color: #000;
+    background-color: #08ac6c
+}
+
+.float-button {
+    margin-top: 16px
+}
+
+
+
+

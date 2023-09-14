@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery {
+  column-count: 4;
+  --webkit-column-count: 4;
+  --moz-column-count: 4;
+  gap: 0.8rem;
+  padding: 4rem;
+  
+
+}
+
+.image img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: black;
+  
+}
+/* Add the hover effect to the .image img element */
+.image img:hover {
+  height: auto;
+  width: 100%;
+  margin-bottom: 10px;
+  transform: scale(1.2) ; /* Scale and rotate the image */
+  transition: transform 0.4s ease; /* Add a smooth transition effect */
+}
+.image{
+  margin: 15;
+}
+
+/* Responsive-ness for different screen-sizes */
+@media screen and (max-width: 810px) {
+  .gallery {
+    column-count: 3;
+    --webkit-column-count: 3;
+    --moz-column-count: 3;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery {
+    column-count: 2;
+    --webkit-column-count: 2;
+    --moz-column-count: 2;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .gallery {
+    column-count: 1;
+    --webkit-column-count: 1;
+    --moz-column-count: 1;
+  }
+}
